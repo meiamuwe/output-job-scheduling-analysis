@@ -1,0 +1,5 @@
+# A Formal Analysis of an Ouput Job Scheduling problem
+
+We define the computational problem of output job scheduling in regards of general device incompatiblity constraints and show that the optimizaton version of the problem is NP-hard and the the decision version of the problem is NP-complete. Consequently, our result strongly suggests  that there  is no polynomial time algorithm to solve the information scheduling problem, unless P = NP. Since decades this equality is widely believed to be not hold. Hence, instead of trying to construct algorithms that deliver optimal solutions, one should focus on the design of algorithms that find non-optimal (but correct) solutions to the problem instances instead. We did not yet study the approximability properties of the output job scheduling problem which is left as future work.
+
+Further, our proof also holds for any restricted class of graphs for which Independent Set is NP-hard, thus identifying more restricted cases, where the output job scheduling problem already is NP-hard.
